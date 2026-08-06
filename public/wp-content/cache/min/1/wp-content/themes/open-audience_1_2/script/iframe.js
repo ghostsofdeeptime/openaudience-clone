@@ -1,0 +1,1 @@
+jQuery(function($){$("#video-carrousel .entry-content a,a.video-link").on("click",function(event){event.preventDefault();var url=$(this).attr("href");if(url!="#up-next"){$("#video-iframe").attr("src",url);$("#video-iframe").show();$('html, body').animate({scrollTop:$("#video-iframe").offset().top},2000)}})})

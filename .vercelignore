@@ -1,0 +1,17 @@
+.git
+.next
+.vinext
+.wrangler
+build
+db
+dist
+drizzle
+examples
+node_modules
+outputs
+tests
+work
+worker
+*.log
+vite.config.ts
+drizzle.config.ts
