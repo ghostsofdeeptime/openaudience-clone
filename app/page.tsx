@@ -15,10 +15,10 @@ export default function Home() {
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Open Audience home"><img src="https://www.openaudience.com/wp-content/uploads/2022/08/logo.svg" alt="Open Audience" /></a>
         <nav aria-label="Primary navigation">
-          <div className="nav-group"><a href="/event-technology/">Products &amp; Services</a><div className="dropdown"><div className="subgroup"><a href="/event-technology/products/">Products <span>›</span></a><div className="flyout"><a href="/openmeet/">OpenMeet</a><a href="/openvod/">OpenVOD</a><a href="/opentube/">OpenTube</a></div></div><a href="/event-technology/services/">Services</a></div></div>
+          <div className="nav-group"><a href="/event-technology/">Products &amp; Services</a><div className="dropdown"><div className="subgroup"><a href="/event-technology/products/">Products <span>&rsaquo;</span></a><div className="flyout"><a href="/openmeet/">OpenMeet</a><a href="/openvod/">OpenVOD</a><a href="/opentube/">OpenTube</a></div></div><a href="/event-technology/services/">Services</a></div></div>
           <a href="/event-technology/solutions/">Solutions</a>
           <a href="/events/life-sciences/">Life Sciences</a>
-          <div className="nav-group"><a href="#">More</a><div className="dropdown"><a href="/sustainability-at-open-audience/">Sustainability</a><a href="/blog/">Blog</a><a href="/case-studies/">Case Studies</a></div></div>
+          <div className="nav-group"><a href="#">More</a><div className="dropdown"><a href="/sustainability-at-open-audience/">Sustainability at Open Audience</a><a href="/blog/">Blog</a><a href="/case-studies/">Case Studies</a></div></div>
           <a href="/contact/">Contact</a>
         </nav>
         <a className="mobile-contact" href="#contact">Contact</a>
@@ -95,7 +95,7 @@ export default function Home() {
           <div><h4>Links</h4><a href="#">Privacy Policy</a><a href="#">Cookies Policy</a></div>
           <div><h4>Contact</h4><a href="tel:01296294136">+44 (0) 1296 294136</a><a href="mailto:info@openaudience.com">info@openaudience.com</a></div>
         </div>
-        <div className="copyright section">© Open Audience 2026</div>
+        <div className="copyright section">© Open Audience 2024</div>
       </footer>
       <input className="cookie-toggle" type="checkbox" id="cookie-dismiss" />
       <input className="settings-toggle" type="checkbox" id="cookie-settings" />
