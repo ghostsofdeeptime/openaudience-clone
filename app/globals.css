@@ -20,7 +20,7 @@ nav a:hover { color:var(--blue); }
 .nav-group{position:relative;padding:28px 0}.dropdown{display:none;position:absolute;left:-18px;top:69px;background:#fff;min-width:220px;padding:10px;box-shadow:0 16px 35px rgba(5,20,80,.16);border-top:3px solid var(--blue)}
 .nav-group:hover .dropdown,.nav-group:focus-within .dropdown{display:block}.dropdown a{display:flex;justify-content:space-between;padding:11px 12px;border-bottom:1px solid #edf0f6}.dropdown>a:last-child{border:0}.subgroup{position:relative}.flyout{display:none;position:absolute;left:100%;top:-13px;background:#fff;min-width:180px;padding:10px;box-shadow:0 16px 35px rgba(5,20,80,.16);border-top:3px solid var(--blue)}.subgroup:hover .flyout,.subgroup:focus-within .flyout{display:block}
 .mobile-contact { display:none; }
-.hero { min-height:590px; background:linear-gradient(90deg,rgba(17,69,206,.12),rgba(21,79,210,.94) 48%,#154fd2), url("https://www.openaudience.com/wp-content/uploads/2022/10/open-audience-engagement.jpg") center/cover; color:#fff; position:relative; overflow:hidden; }
+.hero { min-height:590px; background:linear-gradient(90deg,rgba(17,69,206,.12),rgba(21,79,210,.94) 48%,#154fd2), url("/wp-content/uploads/2022/10/open-audience-engagement.jpg") center/cover; color:#fff; position:relative; overflow:hidden; }
 .hero:after { content:"";position:absolute;right:-130px;bottom:-300px;width:570px;height:570px;border:65px solid rgba(255,255,255,.06);border-radius:50%; }
 .hero-content { width:671px; max-width:54%; text-align:center; margin-left:23.5%; position:relative; z-index:1; padding-top:49px; }
 h1,h2,h3,h4 { margin-top:0; }
@@ -44,7 +44,7 @@ h1,h2,h3,h4 { margin-top:0; }
 .service-cards span { color:#76b5ff; font-size:12px; letter-spacing:2px; }
 .service-cards h3 { margin-top:auto; font-size:23px; font-weight:500; }
 .service-cards p { font-size:14px; color:#d7e2ff; margin:0; }
-.formats { color:#fff; background:linear-gradient(rgba(5,19,80,.78),rgba(5,19,80,.84)),url("https://www.openaudience.com/wp-content/uploads/2022/10/explore.jpg") center/cover fixed; }
+.formats { color:#fff; background:linear-gradient(rgba(5,19,80,.78),rgba(5,19,80,.84)),url("/wp-content/uploads/2022/10/explore.jpg") center/cover fixed; }
 .formats h2 { font-size:46px; font-weight:500; }
 .format-grid { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid rgba(255,255,255,.4); }
 .format-grid a { display:flex; justify-content:space-between; padding:25px 16px 25px 0; border-bottom:1px solid rgba(255,255,255,.35); margin-right:28px; font-size:18px; }
@@ -55,7 +55,7 @@ h1,h2,h3,h4 { margin-top:0; }
 .approach-grid article>span { color:var(--blue); font-size:12px; letter-spacing:2px; }
 .approach-grid h3 { font-size:27px; font-weight:500; margin-bottom:10px; }
 .approach-grid p { color:var(--muted); font-size:15px; margin:0; }
-.contact-banner { color:#fff; background:linear-gradient(90deg,rgba(5,14,71,.92),rgba(16,63,185,.48)),url("https://www.openaudience.com/wp-content/uploads/2022/10/Footer-Banner-audience-looking-up.jpg") center/cover; }
+.contact-banner { color:#fff; background:linear-gradient(90deg,rgba(5,14,71,.92),rgba(16,63,185,.48)),url("/wp-content/uploads/2022/10/Footer-Banner-audience-looking-up.jpg") center/cover; }
 .contact-inner { min-height:500px; display:flex; flex-direction:column; align-items:flex-start; justify-content:center; }
 .contact-inner h2 { font-size:54px; line-height:.95; font-weight:500; margin-bottom:20px; }
 .contact-inner p:not(.eyebrow) { max-width:460px; font-size:18px; }
