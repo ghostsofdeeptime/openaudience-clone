@@ -18,11 +18,11 @@ export default function Home() {
           <span>Open Audience</span>
         </a>
         <nav aria-label="Primary navigation">
-          <a href="#services">Products &amp; Services</a>
-          <a href="#solutions">Solutions</a>
-          <a href="#life-sciences">Life Sciences</a>
-          <a href="#about">More</a>
-          <a href="#contact">Contact</a>
+          <div className="nav-group"><a href="/event-technology/">Products &amp; Services</a><div className="dropdown"><a href="/event-technology/products/">Products</a><a href="/openmeet/">OpenMeet</a><a href="/openvod/">OpenVOD</a><a href="/opentube/">OpenTube</a><a href="/event-technology/services/">Services</a></div></div>
+          <a href="/event-technology/solutions/">Solutions</a>
+          <a href="/events/life-sciences/">Life Sciences</a>
+          <div className="nav-group"><a href="#">More</a><div className="dropdown"><a href="/sustainability-at-open-audience/">Sustainability</a><a href="/blog/">Blog</a><a href="/case-studies/">Case Studies</a></div></div>
+          <a href="/contact/">Contact</a>
         </nav>
         <a className="mobile-contact" href="#contact">Contact</a>
       </header>
@@ -100,6 +100,8 @@ export default function Home() {
         </div>
         <div className="copyright section">© Open Audience 2026</div>
       </footer>
+      <input className="cookie-toggle" type="checkbox" id="cookie-dismiss" />
+      <aside className="cookie-banner" aria-label="Cookie notice"><div><strong>Your privacy matters</strong><p>We use essential cookies to make this website work and optional cookies to understand how it is used.</p></div><div className="cookie-actions"><a href="#">Cookie settings</a><label htmlFor="cookie-dismiss">Accept all</label></div></aside>
     </main>
   );
 }
